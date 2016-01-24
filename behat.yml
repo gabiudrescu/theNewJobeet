@@ -2,6 +2,12 @@ default:
     suites:
         default:
             contexts:
-                - FeatureContext
+                - FeatureContext:
+                    entityManager: @doctrine.orm.default_entity_manager
+                - Behat\MinkExtension\Context\MinkContext
     extensions:
         Behat\Symfony2Extension: ~
+        Behat\MinkExtension:
+            sessions:
+                default:
+                    symfony2: ~
