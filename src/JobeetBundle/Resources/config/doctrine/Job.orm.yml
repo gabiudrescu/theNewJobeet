@@ -1,0 +1,33 @@
+JobeetBundle\Entity\Job:
+    type: entity
+    table: null
+    repositoryClass: JobeetBundle\Repository\JobRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        position:
+            type: string
+            length: 255
+        company:
+            type: string
+            length: 255
+        location:
+            type: string
+            length: 255
+        description:
+            type: text
+        type:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        token:
+            type: string
+            length: 255
+            unique: true
+    lifecycleCallbacks: {  }
