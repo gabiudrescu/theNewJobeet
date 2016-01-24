@@ -1,0 +1,7 @@
+default:
+    suites:
+        default:
+            contexts:
+                - FeatureContext
+    extensions:
+        Behat\Symfony2Extension: ~
