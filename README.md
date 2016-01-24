@@ -3,6 +3,8 @@ The new Jobeet
 
 A Symfony 2.8 Jobeet Tutorial, ready for Symfony 3, architectured with Behat and PHPSpec.
 
+[![Build Status](https://travis-ci.org/gabiudrescu/theNewJobeet.svg?branch=master)](https://travis-ci.org/gabiudrescu/theNewJobeet) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gabiudrescu/theNewJobeet/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gabiudrescu/theNewJobeet/?branch=master) 
+
 The mission
 -----------
 The mission of this tutorial is to provide users a walk through Symfony and help them with a real-world example to learn developing business valuable, good quality and easily maintainable software.
